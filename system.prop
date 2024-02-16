@@ -1,0 +1,74 @@
+# volume steps
+ro.config.media_vol_steps=100
+ro.config.media_vol_default=30
+
+#
+# Support hi-res audio
+#
+
+# ignore headphone volume limit
+audio.safemedia.bypass=true
+
+# ignore audio effects
+# - Disable mi sound if you want to use it.
+ro.vendor.audio.misound.bluetooth.enable=false
+ro.audio.ignore_effects=true
+
+# resampler settings
+# - af.resampler.quality
+#   : 1(LOW),2(MIDDLE),3(HIGH),4(VERY_HIGH),5(DYN_LOW),6(DYN_MIDDLE),7(DYN_HIGH)
+# - ro.audio.resampler.psd.enable_at_samplerate
+#   : Resampling is performed if the sample rate exceeds this rate.
+#   : If a negative value is specified, no action will be taken.
+# - ro.audio.resampler.psd.halflength
+#   : Specify HALF the resampling filter length.
+#   : Set to a value which is a multiple of 4.
+# - ro.audio.resampler.psd.stopband
+#   : Specify the stopband attenuation in positive dB.
+#   : Set to a value greater or equal to 20.
+# - ro.audio.resampler.psd.cutoff_percent
+#   : Specify the cutoff frequency as a percentage of Nyquist.
+#   : Set to a value between 50 and 100.
+# - ro.audio.resampler.psd.tbwcheat
+#   : Specify the transition bandwidth extension beyond Nyquist.
+#   : If this is nonzero then mPropertyCutoffPercent is ignored.
+#   : A value of 100 or greater is typically used, where 100 means the stopband is at Nyquist (this is a typical design).
+af.resampler.quality=7
+ro.audio.resampler.psd.enable_at_samplerate=-1
+ro.audio.resampler.psd.halflength=384
+ro.audio.resampler.psd.stopband=144
+ro.audio.resampler.psd.cutoff_percent=100
+ro.audio.resampler.psd.tbwcheat=0
+
+# activate audio_policy_configration.xml
+ro.bluetooth.a2dp_offload.supported=true
+persist.bluetooth.a2dp_offload.disabled=false
+
+#
+# snapdragon value add features
+#
+persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptiver2-aac-ldac-lhdc
+persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
+persist.vendor.qcom.bluetooth.twsp_state.enabled=false
+persist.vendor.qcom.bluetooth.a2dp_mcast_test.enabled=false
+persist.vendor.qcom.bluetooth.scram.enabled=false
+persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true
+
+# support aptx adaptive - 96kHz
+# - required qualcomm bluetooth audio r2.1 library
+persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=true
+
+# support aptx lossless - 44.1kHz
+# - required qualcomm bluetooth audio r2.2 library
+persist.vendor.qcom.bluetooth.aptxadaptiver2_2_support=true
+
+#
+# addtional audio enhancement
+#
+persist.vendor.audio.current_samplerate=192000
+persist.vendor.btstack.qhs_enable=true
+persist.vendor.btstack.qhs_support=255
+persist.vendor.service.bt.is_lc3q_supported=true
+persist.bluetooth.sbc_hd_higher_bitrate=1
+vendor.audio.feature.usb_offload.enable=true
+vendor.audio.feature.usb_offload_burst_mode.enable=true
