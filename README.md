@@ -1,5 +1,4 @@
 # Xiaomi fuxi audio optimization
-## v1.0.0 - By "k56apps"
 
 ## Description
 - Support hi-res audio
