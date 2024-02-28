@@ -1,5 +1,5 @@
 # volume steps
-ro.config.media_vol_steps=150
+ro.config.media_vol_steps=100
 ro.config.media_vol_default=30
 
 #
