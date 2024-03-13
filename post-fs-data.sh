@@ -16,6 +16,9 @@ MAGISKPATH=$(magisk --path)
 MAGISKTMP=$MAGISKPATH/.magisk
 
 # This script will be executed in post-fs-data mode
+ODM_DIR=/data/adb/odm_etc
+AUDIO_POLICY_CONF=$ODM_DIR/audio_policy_configuration.xml
+AUDIO_POLICY_ENGINE=$ODM_DIR/audio_policy_engine_stream_volumes.xml
 
 # audio quality settings
 DRC_enabled=false
@@ -28,7 +31,7 @@ sed -e "s/%DRC_ENABLED%/$DRC_enabled/" \
     -e "s/%SAMPLING_RATE%/$sRate/g" \
     -e "s/%AUDIO_FORMAT%/$aFormat/g" \
     $MODDIR/template/audio_policy_configuration.xml > \
-    /data/adb/odm_etc/audio_policy_configuration.xml
+    $AUDIO_POLICY_CONF
 
 # apply audio policy configuration
 sed -e "s/%DRC_ENABLED%/$DRC_enabled/" \
@@ -36,5 +39,9 @@ sed -e "s/%DRC_ENABLED%/$DRC_enabled/" \
     -e "s/%AUDIO_FORMAT%/$aFormat/g" \
     $MODDIR/template/audio_policy_configuration.xml > \
     $MODDIR/system/vendor/etc/audio/sku_kalama_qssi/audio_policy_configuration.xml
+
+# apply audio policy engine stream volumes
+cat $MODDIR/template/audio_policy_engine_stream_volumes.xml > \
+    $AUDIO_POLICY_ENGINE
 
 # End of script

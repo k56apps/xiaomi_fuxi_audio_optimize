@@ -1,3 +1,9 @@
+# v1.1.0
+## Recommended to remove previous version before installation
+
+- Music volume curve changed to A-like curve.
+- Organize code.
+
 # v1.0.2
 
 - Media volume step back to 100.
