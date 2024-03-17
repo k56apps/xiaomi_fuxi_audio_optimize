@@ -1,8 +1,12 @@
+# v1.1.3
+
+- Added a category to change the volume curve to an A-like curve.
+
 # v1.1.2
 
 - Ported volume step code from service.sh in the audio-misc-settings module.
   - https://github.com/Magisk-Modules-Alt-Repo/audio-misc-settings/blob/master/service.sh
--  Enable update json.
+- Enable update json.
 
 # v1.1.1
 

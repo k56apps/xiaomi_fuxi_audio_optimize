@@ -267,9 +267,21 @@ volume index from 0 to 100.
             <point>100,-770</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET_CE">
+        <!-- Modify Volume Curve: C to A -->
             <point>1,-6450</point>
-            <point>33,-3550</point>
-            <point>73,-1600</point>
+            <point>13,-6324</point>
+            <point>20,-6134</point>
+            <point>27,-5886</point>
+            <point>33,-5595</point>
+            <point>40,-5259</point>
+            <point>47,-4888</point>
+            <point>53,-4500</point>
+            <point>60,-4095</point>
+            <point>66,-3689</point>
+            <point>73,-3243</point>
+            <point>80,-2654</point>
+            <point>87,-2047</point>
+            <point>93,-1411</point>
             <point>100,-450</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET_SPATIALIZER_CE">
@@ -279,8 +291,8 @@ volume index from 0 to 100.
             <point>100,-990</point>
         </volume>
 
-        <volume deviceCategory="DEVICE_CATEGORY_EARPIECE" ref="DEFAULT_MEDIA_VOLUME_CURVE"/>
-        <volume deviceCategory="DEVICE_CATEGORY_EXT_MEDIA" ref="DEFAULT_MEDIA_VOLUME_CURVE"/>
+        <volume deviceCategory="DEVICE_CATEGORY_EARPIECE" ref="USER_MEDIA_VOLUME_CURVE"/>
+        <volume deviceCategory="DEVICE_CATEGORY_EXT_MEDIA" ref="USER_MEDIA_VOLUME_CURVE"/>
         <volume deviceCategory="DEVICE_CATEGORY_HEARING_AID"  ref="DEFAULT_HEARING_AID_VOLUME_CURVE"/>
     </volumeGroup>
 
@@ -445,7 +457,7 @@ volume index from 0 to 100.
             <point>93,-82</point>
             <point>100,0</point>
         </volume>
-        <volume deviceCategory="DEVICE_CATEGORY_EXT_MEDIA" ref="DEFAULT_MEDIA_VOLUME_CURVE"/>
+        <volume deviceCategory="DEVICE_CATEGORY_EXT_MEDIA" ref="USER_MEDIA_VOLUME_CURVE"/>
     </volumeGroup>
 
     <volumeGroup>
