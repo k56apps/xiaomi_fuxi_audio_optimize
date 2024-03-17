@@ -1,4 +1,10 @@
-# v1.1.0
+# v1.1.2
+
+- Ported volume step code from service.sh in the audio-misc-settings module.
+  - https://github.com/Magisk-Modules-Alt-Repo/audio-misc-settings/blob/master/service.sh
+-  Enable update json.
+
+# v1.1.1
 
 - Fix customize.sh.
 

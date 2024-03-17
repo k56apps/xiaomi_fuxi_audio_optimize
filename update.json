@@ -1,6 +1,6 @@
 {
-  "version": "v1.1.1",
-  "versionCode": 111,
-  "zipUrl": "https://github.com/k56apps/xiaomi_fuxi_audio_optimize/releases/download/v1.1.1/xiaomi_fuxi_audio_optimize.zip",
-  "changelog": "https://github.com/k56apps/xiaomi_fuxi_audio_optimize/blob/main/CHANGELOG.md"
+  "version": "v1.1.2",
+  "versionCode": 112,
+  "zipUrl": "https://github.com/k56apps/xiaomi_fuxi_audio_optimize/releases/download/v1.1.2/xiaomi_fuxi_audio_optimize.zip",
+  "changelog": "https://raw.githubusercontent.com/k56apps/xiaomi_fuxi_audio_optimize/main/CHANGELOG.md"
 }

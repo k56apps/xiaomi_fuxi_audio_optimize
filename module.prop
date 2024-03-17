@@ -1,6 +1,7 @@
 id=XiaomiFuxiAudioOptimization
 name=Xiaomi Fuxi Audio Optimization
-version=v1.1.1
-versionCode=111
+version=v1.1.2
+versionCode=112
 author=k56apps
 description=A magisk module to XIAOMI FUXI audio optimize.
+updateJson=https://raw.githubusercontent.com/k56apps/xiaomi_fuxi_audio_optimize/main/update.json
