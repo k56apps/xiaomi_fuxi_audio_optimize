@@ -147,77 +147,417 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>music</name>
         <indexMin>0</indexMin>
-        <indexMax>15</indexMax>
-        <volume deviceCategory="DEVICE_CATEGORY_HEADSET">
+        <indexMax>150</indexMax>
+        <volume deiceCategory="DEVICE_CATEGORY_HEADSET">
         <!-- Modify Volume Curve: C to A -->
             <point>1,-6200</point>
+            <point>2,-6190</point>
+            <point>3,-6180</point>
+            <point>4,-6170</point>
+            <point>5,-6160</point>
+            <point>6,-6150</point>
+            <point>7,-6140</point>
+            <point>8,-6129</point>
+            <point>9,-6119</point>
+            <point>10,-6109</point>
+            <point>11,-6099</point>
+            <point>12,-6089</point>
             <point>13,-6079</point>
+            <point>14,-6053</point>
+            <point>15,-6027</point>
+            <point>16,-6001</point>
+            <point>17,-5975</point>
+            <point>18,-5949</point>
+            <point>19,-5923</point>
             <point>20,-5897</point>
+            <point>21,-5863</point>
+            <point>22,-5829</point>
+            <point>23,-5795</point>
+            <point>24,-5760</point>
+            <point>25,-5726</point>
+            <point>26,-5692</point>
             <point>27,-5658</point>
+            <point>28,-5611</point>
+            <point>29,-5565</point>
+            <point>30,-5518</point>
+            <point>31,-5471</point>
+            <point>32,-5425</point>
             <point>33,-5378</point>
+            <point>34,-5332</point>
+            <point>35,-5286</point>
+            <point>36,-5240</point>
+            <point>37,-5193</point>
+            <point>38,-5147</point>
+            <point>39,-5101</point>
             <point>40,-5055</point>
+            <point>41,-5004</point>
+            <point>42,-4953</point>
+            <point>43,-4902</point>
+            <point>44,-4852</point>
+            <point>45,-4801</point>
+            <point>46,-4750</point>
             <point>47,-4699</point>
+            <point>48,-4637</point>
+            <point>49,-4574</point>
+            <point>50,-4512</point>
+            <point>51,-4450</point>
+            <point>52,-4387</point>
             <point>53,-4325</point>
+            <point>54,-4269</point>
+            <point>55,-4214</point>
+            <point>56,-4158</point>
+            <point>57,-4103</point>
+            <point>58,-4047</point>
+            <point>59,-3992</point>
             <point>60,-3936</point>
+            <point>61,-3871</point>
+            <point>62,-3806</point>
+            <point>63,-3741</point>
+            <point>64,-3676</point>
+            <point>65,-3611</point>
             <point>66,-3546</point>
+            <point>67,-3460</point>
+            <point>68,-3373</point>
+            <point>69,-3287</point>
+            <point>70,-3201</point>
+            <point>71,-3115</point>
+            <point>72,-3028</point>
             <point>73,-2942</point>
+            <point>74,-2860</point>
+            <point>75,-2778</point>
+            <point>76,-2696</point>
+            <point>77,-2615</point>
+            <point>78,-2533</point>
+            <point>79,-2451</point>
             <point>80,-2369</point>
+            <point>81,-2273</point>
+            <point>82,-2177</point>
+            <point>83,-2081</point>
+            <point>84,-1986</point>
+            <point>85,-1890</point>
+            <point>86,-1794</point>
             <point>87,-1698</point>
+            <point>88,-1589</point>
+            <point>89,-1479</point>
+            <point>90,-1370</point>
+            <point>91,-1261</point>
+            <point>92,-1151</point>
             <point>93,-1042</point>
+            <point>94,-909</point>
+            <point>95,-776</point>
+            <point>96,-643</point>
+            <point>97,-509</point>
+            <point>98,-376</point>
+            <point>99,-243</point>
             <point>100,-110</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_USB">
         <!-- Modify Volume Curve: C to A -->
             <point>1,-6500</point>
+            <point>2,-6489</point>
+            <point>3,-6479</point>
+            <point>4,-6468</point>
+            <point>5,-6458</point>
+            <point>6,-6447</point>
+            <point>7,-6436</point>
+            <point>8,-6426</point>
+            <point>9,-6415</point>
+            <point>10,-6405</point>
+            <point>11,-6394</point>
+            <point>12,-6384</point>
             <point>13,-6373</point>
+            <point>14,-6346</point>
+            <point>15,-6318</point>
+            <point>16,-6291</point>
+            <point>17,-6264</point>
+            <point>18,-6237</point>
+            <point>19,-6209</point>
             <point>20,-6182</point>
+            <point>21,-6146</point>
+            <point>22,-6111</point>
+            <point>23,-6075</point>
+            <point>24,-6039</point>
+            <point>25,-6003</point>
+            <point>26,-5968</point>
             <point>27,-5932</point>
+            <point>28,-5883</point>
+            <point>29,-5834</point>
+            <point>30,-5785</point>
+            <point>31,-5736</point>
+            <point>32,-5687</point>
             <point>33,-5638</point>
+            <point>34,-5590</point>
+            <point>35,-5541</point>
+            <point>36,-5493</point>
+            <point>37,-5445</point>
+            <point>38,-5397</point>
+            <point>39,-5348</point>
             <point>40,-5300</point>
+            <point>41,-5247</point>
+            <point>42,-5193</point>
+            <point>43,-5140</point>
+            <point>44,-5086</point>
+            <point>45,-5033</point>
+            <point>46,-4979</point>
             <point>47,-4926</point>
+            <point>48,-4861</point>
+            <point>49,-4796</point>
+            <point>50,-4730</point>
+            <point>51,-4665</point>
+            <point>52,-4600</point>
             <point>53,-4535</point>
+            <point>54,-4477</point>
+            <point>55,-4418</point>
+            <point>56,-4360</point>
+            <point>57,-4301</point>
+            <point>58,-4243</point>
+            <point>59,-4184</point>
             <point>60,-4126</point>
+            <point>61,-4058</point>
+            <point>62,-3990</point>
+            <point>63,-3922</point>
+            <point>64,-3854</point>
+            <point>65,-3786</point>
             <point>66,-3718</point>
+            <point>67,-3637</point>
+            <point>68,-3557</point>
+            <point>69,-3476</point>
+            <point>70,-3396</point>
+            <point>71,-3315</point>
+            <point>72,-3235</point>
             <point>73,-3154</point>
+            <point>74,-3057</point>
+            <point>75,-2961</point>
+            <point>76,-2864</point>
+            <point>77,-2767</point>
+            <point>78,-2670</point>
+            <point>79,-2574</point>
             <point>80,-2477</point>
+            <point>81,-2380</point>
+            <point>82,-2283</point>
+            <point>83,-2186</point>
+            <point>84,-2090</point>
+            <point>85,-1993</point>
+            <point>86,-1896</point>
             <point>87,-1799</point>
+            <point>88,-1672</point>
+            <point>89,-1546</point>
+            <point>90,-1419</point>
+            <point>91,-1292</point>
+            <point>92,-1166</point>
             <point>93,-1039</point>
+            <point>94,-891</point>
+            <point>95,-742</point>
+            <point>96,-594</point>
+            <point>97,-445</point>
+            <point>98,-297</point>
+            <point>99,-148</point>
             <point>100,0</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_A2DP">
         <!-- Modify Volume Curve: C to A -->
             <point>1,-4900</point>
+            <point>2,-4892</point>
+            <point>3,-4884</point>
+            <point>4,-4876</point>
+            <point>5,-4868</point>
+            <point>6,-4860</point>
+            <point>7,-4852</point>
+            <point>8,-4844</point>
+            <point>9,-4836</point>
+            <point>10,-4828</point>
+            <point>11,-4820</point>
+            <point>12,-4812</point>
             <point>13,-4804</point>
+            <point>14,-4783</point>
+            <point>15,-4763</point>
+            <point>16,-4742</point>
+            <point>17,-4722</point>
+            <point>18,-4701</point>
+            <point>19,-4681</point>
             <point>20,-4660</point>
+            <point>21,-4633</point>
+            <point>22,-4606</point>
+            <point>23,-4579</point>
+            <point>24,-4553</point>
+            <point>25,-4526</point>
+            <point>26,-4499</point>
             <point>27,-4472</point>
+            <point>28,-4435</point>
+            <point>29,-4398</point>
+            <point>30,-4361</point>
+            <point>31,-4324</point>
+            <point>32,-4287</point>
             <point>33,-4250</point>
+            <point>34,-4214</point>
+            <point>35,-4177</point>
+            <point>36,-4141</point>
+            <point>37,-4104</point>
+            <point>38,-4068</point>
+            <point>39,-4031</point>
             <point>40,-3995</point>
+            <point>41,-3955</point>
+            <point>42,-3915</point>
+            <point>43,-3875</point>
+            <point>44,-3834</point>
+            <point>45,-3794</point>
+            <point>46,-3754</point>
             <point>47,-3714</point>
+            <point>48,-3665</point>
+            <point>49,-3615</point>
+            <point>50,-3566</point>
+            <point>51,-3517</point>
+            <point>52,-3467</point>
             <point>53,-3418</point>
+            <point>54,-3374</point>
+            <point>55,-3330</point>
+            <point>56,-3286</point>
+            <point>57,-3243</point>
+            <point>58,-3199</point>
+            <point>59,-3155</point>
             <point>60,-3111</point>
+            <point>61,-3060</point>
+            <point>62,-3008</point>
+            <point>63,-2957</point>
+            <point>64,-2906</point>
+            <point>65,-2854</point>
             <point>66,-2803</point>
+            <point>67,-2750</point>
+            <point>68,-2697</point>
+            <point>69,-2644</point>
+            <point>70,-2591</point>
+            <point>71,-2538</point>
+            <point>72,-2485</point>
             <point>73,-2432</point>
+            <point>74,-2362</point>
+            <point>75,-2292</point>
+            <point>76,-2222</point>
+            <point>77,-2151</point>
+            <point>78,-2081</point>
+            <point>79,-2011</point>
             <point>80,-1941</point>
+            <point>81,-1864</point>
+            <point>82,-1786</point>
+            <point>83,-1709</point>
+            <point>84,-1632</point>
+            <point>85,-1555</point>
+            <point>86,-1477</point>
             <point>87,-1400</point>
+            <point>88,-1307</point>
+            <point>89,-1214</point>
+            <point>90,-1120</point>
+            <point>91,-1027</point>
+            <point>92,-934</point>
             <point>93,-841</point>
+            <point>94,-721</point>
+            <point>95,-601</point>
+            <point>96,-481</point>
+            <point>97,-360</point>
+            <point>98,-240</point>
+            <point>99,-120</point>
             <point>100,0</point>
         </volume>
        <volume deviceCategory="DEVICE_CATEGORY_A2DP_CE">
         <!-- Modify Volume Curve: C to A -->
             <point>1,-6000</point>
+            <point>2,-5990</point>
+            <point>3,-5980</point>
+            <point>4,-5971</point>
+            <point>5,-5961</point>
+            <point>6,-5951</point>
+            <point>7,-5942</point>
+            <point>8,-5932</point>
+            <point>9,-5922</point>
+            <point>10,-5912</point>
+            <point>11,-5902</point>
+            <point>12,-5893</point>
             <point>13,-5883</point>
+            <point>14,-5858</point>
+            <point>15,-5833</point>
+            <point>16,-5808</point>
+            <point>17,-5782</point>
+            <point>18,-5757</point>
+            <point>19,-5732</point>
             <point>20,-5707</point>
+            <point>21,-5674</point>
+            <point>22,-5641</point>
+            <point>23,-5608</point>
+            <point>24,-5574</point>
+            <point>25,-5541</point>
+            <point>26,-5508</point>
             <point>27,-5475</point>
+            <point>28,-5430</point>
+            <point>29,-5385</point>
+            <point>30,-5340</point>
+            <point>31,-5294</point>
+            <point>32,-5249</point>
             <point>33,-5204</point>
+            <point>34,-5159</point>
+            <point>35,-5115</point>
+            <point>36,-5070</point>
+            <point>37,-5026</point>
+            <point>38,-4981</point>
+            <point>39,-4937</point>
             <point>40,-4892</point>
+            <point>41,-4843</point>
+            <point>42,-4793</point>
+            <point>43,-4744</point>
+            <point>44,-4695</point>
+            <point>45,-4646</point>
+            <point>46,-4596</point>
             <point>47,-4547</point>
+            <point>48,-4487</point>
+            <point>49,-4427</point>
+            <point>50,-4366</point>
+            <point>51,-4306</point>
+            <point>52,-4246</point>
             <point>53,-4186</point>
+            <point>54,-4132</point>
+            <point>55,-4078</point>
+            <point>56,-4024</point>
+            <point>57,-3971</point>
+            <point>58,-3917</point>
+            <point>59,-3863</point>
             <point>60,-3809</point>
+            <point>61,-3746</point>
+            <point>62,-3683</point>
+            <point>63,-3620</point>
+            <point>64,-3558</point>
+            <point>65,-3495</point>
             <point>66,-3432</point>
+            <point>67,-3362</point>
+            <point>68,-3292</point>
+            <point>69,-3222</point>
+            <point>70,-3152</point>
+            <point>71,-3082</point>
+            <point>72,-3012</point>
             <point>73,-2942</point>
+            <point>74,-2860</point>
+            <point>75,-2778</point>
+            <point>76,-2696</point>
+            <point>77,-2615</point>
+            <point>78,-2533</point>
+            <point>79,-2451</point>
             <point>80,-2369</point>
+            <point>81,-2273</point>
+            <point>82,-2177</point>
+            <point>83,-2081</point>
+            <point>84,-1986</point>
+            <point>85,-1890</point>
+            <point>86,-1794</point>
             <point>87,-1698</point>
+            <point>88,-1605</point>
+            <point>89,-1512</point>
+            <point>90,-1420</point>
+            <point>91,-1327</point>
+            <point>92,-1234</point>
             <point>93,-1141</point>
+            <point>94,-1021</point>
+            <point>95,-901</point>
+            <point>96,-781</point>
+            <point>97,-660</point>
+            <point>98,-540</point>
+            <point>99,-420</point>
             <point>100,-300</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_A2DP_SPATIALIZER_CE">
@@ -231,27 +571,152 @@ volume index from 0 to 100.
             <point>0,-7580</point>
             <point>1,-7576</point>
             <point>2,-7568</point>
+            <point>3,-7562</point>
+            <point>4,-7557</point>
+            <point>5,-7551</point>
+            <point>6,-7545</point>
             <point>7,-7540</point>
-            <point>13,-7487</point>
-            <point>20,-7407</point>
-            <point>27,-7301</point>
-            <point>33,-7172</point>
-            <point>40,-7019</point>
-            <point>47,-6843</point>
-            <point>53,-6650</point>
-            <point>60,-6437</point>
-            <point>66,-6211</point>
-            <point>73,-5969</point>
-            <point>80,-5714</point>
-            <point>87,-5449</point>
-            <point>93,-5179</point>
-            <point>100,-4874</point>
-            <point>109,-4343</point>
-            <point>116,-3839</point>
-            <point>122,-3371</point>
-            <point>130,-2786</point>
-            <point>137,-2074</point>
-            <point>143,-1362</point>
+            <point>8,-7531</point>
+            <point>9,-7522</point>
+            <point>10,-7513</point>
+            <point>11,-7504</point>
+            <point>12,-7495</point>
+            <point>13,-7486</point>
+            <point>14,-7474</point>
+            <point>15,-7463</point>
+            <point>16,-7451</point>
+            <point>17,-7440</point>
+            <point>18,-7428</point>
+            <point>19,-7417</point>
+            <point>20,-7405</point>
+            <point>21,-7390</point>
+            <point>22,-7374</point>
+            <point>23,-7359</point>
+            <point>24,-7344</point>
+            <point>25,-7329</point>
+            <point>26,-7314</point>
+            <point>27,-7297</point>
+            <point>28,-7275</point>
+            <point>29,-7254</point>
+            <point>30,-7232</point>
+            <point>31,-7211</point>
+            <point>32,-7189</point>
+            <point>33,-7167</point>
+            <point>34,-7145</point>
+            <point>35,-7123</point>
+            <point>36,-7101</point>
+            <point>37,-7079</point>
+            <point>38,-7057</point>
+            <point>39,-7035</point>
+            <point>40,-7012</point>
+            <point>41,-6987</point>
+            <point>42,-6962</point>
+            <point>43,-6936</point>
+            <point>44,-6911</point>
+            <point>45,-6886</point>
+            <point>46,-6860</point>
+            <point>47,-6833</point>
+            <point>48,-6800</point>
+            <point>49,-6768</point>
+            <point>50,-6736</point>
+            <point>51,-6703</point>
+            <point>52,-6671</point>
+            <point>53,-6639</point>
+            <point>54,-6609</point>
+            <point>55,-6578</point>
+            <point>56,-6547</point>
+            <point>57,-6517</point>
+            <point>58,-6486</point>
+            <point>59,-6455</point>
+            <point>60,-6422</point>
+            <point>61,-6384</point>
+            <point>62,-6346</point>
+            <point>63,-6308</point>
+            <point>64,-6270</point>
+            <point>65,-6232</point>
+            <point>66,-6196</point>
+            <point>67,-6161</point>
+            <point>68,-6126</point>
+            <point>69,-6091</point>
+            <point>70,-6056</point>
+            <point>71,-6022</point>
+            <point>72,-5987</point>
+            <point>73,-5951</point>
+            <point>74,-5914</point>
+            <point>76,-5878</point>
+            <point>77,-5841</point>
+            <point>78,-5804</point>
+            <point>79,-5768</point>
+            <point>80,-5731</point>
+            <point>81,-5694</point>
+            <point>82,-5656</point>
+            <point>83,-5617</point>
+            <point>84,-5579</point>
+            <point>85,-5541</point>
+            <point>86,-5503</point>
+            <point>87,-5465</point>
+            <point>88,-5423</point>
+            <point>89,-5377</point>
+            <point>90,-5332</point>
+            <point>91,-5287</point>
+            <point>92,-5242</point>
+            <point>93,-5196</point>
+            <point>94,-5152</point>
+            <point>95,-5108</point>
+            <point>96,-5064</point>
+            <point>97,-5020</point>
+            <point>98,-4976</point>
+            <point>99,-4932</point>
+            <point>100,-4889</point>
+            <point>101,-4834</point>
+            <point>102,-4775</point>
+            <point>103,-4716</point>
+            <point>104,-4656</point>
+            <point>105,-4597</point>
+            <point>106,-4537</point>
+            <point>107,-4478</point>
+            <point>108,-4419</point>
+            <point>109,-4359</point>
+            <point>110,-4290</point>
+            <point>111,-4218</point>
+            <point>112,-4145</point>
+            <point>113,-4073</point>
+            <point>114,-4000</point>
+            <point>115,-3928</point>
+            <point>116,-3855</point>
+            <point>117,-3778</point>
+            <point>118,-3700</point>
+            <point>119,-3621</point>
+            <point>120,-3543</point>
+            <point>121,-3464</point>
+            <point>122,-3386</point>
+            <point>123,-3311</point>
+            <point>124,-3238</point>
+            <point>125,-3164</point>
+            <point>126,-3090</point>
+            <point>127,-3017</point>
+            <point>128,-2943</point>
+            <point>129,-2869</point>
+            <point>130,-2796</point>
+            <point>131,-2697</point>
+            <point>132,-2595</point>
+            <point>133,-2492</point>
+            <point>134,-2390</point>
+            <point>135,-2288</point>
+            <point>136,-2185</point>
+            <point>137,-2083</point>
+            <point>138,-1965</point>
+            <point>139,-1845</point>
+            <point>140,-1726</point>
+            <point>141,-1607</point>
+            <point>142,-1487</point>
+            <point>143,-1368</point>
+            <point>144,-1179</point>
+            <point>145,-988</point>
+            <point>146,-796</point>
+            <point>147,-605</point>
+            <point>148,-413</point>
+            <point>149,-222</point>
             <point>150,-30</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_USB_CE">
@@ -269,19 +734,104 @@ volume index from 0 to 100.
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET_CE">
         <!-- Modify Volume Curve: C to A -->
             <point>1,-6450</point>
+            <point>2,-6440</point>
+            <point>3,-6429</point>
+            <point>4,-6418</point>
+            <point>5,-6408</point>
+            <point>6,-6398</point>
+            <point>7,-6387</point>
+            <point>8,-6376</point>
+            <point>9,-6366</point>
+            <point>10,-6356</point>
+            <point>11,-6345</point>
+            <point>12,-6334</point>
             <point>13,-6324</point>
+            <point>14,-6297</point>
+            <point>15,-6270</point>
+            <point>16,-6243</point>
+            <point>17,-6215</point>
+            <point>18,-6188</point>
+            <point>19,-6161</point>
             <point>20,-6134</point>
+            <point>21,-6099</point>
+            <point>22,-6063</point>
+            <point>23,-6028</point>
+            <point>24,-5992</point>
+            <point>25,-5957</point>
+            <point>26,-5921</point>
             <point>27,-5886</point>
+            <point>28,-5838</point>
+            <point>29,-5789</point>
+            <point>30,-5740</point>
+            <point>31,-5692</point>
+            <point>32,-5644</point>
             <point>33,-5595</point>
+            <point>34,-5547</point>
+            <point>35,-5499</point>
+            <point>36,-5451</point>
+            <point>37,-5403</point>
+            <point>38,-5355</point>
+            <point>39,-5307</point>
             <point>40,-5259</point>
+            <point>41,-5206</point>
+            <point>42,-5153</point>
+            <point>43,-5100</point>
+            <point>44,-5047</point>
+            <point>45,-4994</point>
+            <point>46,-4941</point>
             <point>47,-4888</point>
+            <point>48,-4823</point>
+            <point>49,-4759</point>
+            <point>50,-4694</point>
+            <point>51,-4629</point>
+            <point>52,-4565</point>
             <point>53,-4500</point>
+            <point>54,-4442</point>
+            <point>55,-4384</point>
+            <point>56,-4326</point>
+            <point>57,-4269</point>
+            <point>58,-4211</point>
+            <point>59,-4153</point>
             <point>60,-4095</point>
+            <point>61,-4027</point>
+            <point>62,-3960</point>
+            <point>63,-3892</point>
+            <point>64,-3824</point>
+            <point>65,-3757</point>
             <point>66,-3689</point>
+            <point>67,-3625</point>
+            <point>68,-3562</point>
+            <point>69,-3498</point>
+            <point>70,-3434</point>
+            <point>71,-3370</point>
+            <point>72,-3307</point>
             <point>73,-3243</point>
+            <point>74,-3159</point>
+            <point>75,-3075</point>
+            <point>76,-2991</point>
+            <point>77,-2906</point>
+            <point>78,-2822</point>
+            <point>79,-2738</point>
             <point>80,-2654</point>
+            <point>81,-2567</point>
+            <point>82,-2481</point>
+            <point>83,-2394</point>
+            <point>84,-2307</point>
+            <point>85,-2220</point>
+            <point>86,-2134</point>
             <point>87,-2047</point>
+            <point>88,-1941</point>
+            <point>89,-1835</point>
+            <point>90,-1729</point>
+            <point>91,-1623</point>
+            <point>92,-1517</point>
             <point>93,-1411</point>
+            <point>94,-1274</point>
+            <point>95,-1136</point>
+            <point>96,-999</point>
+            <point>97,-862</point>
+            <point>98,-725</point>
+            <point>99,-587</point>
             <point>100,-450</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET_SPATIALIZER_CE">
@@ -348,113 +898,623 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>bluetooth_sco</name>
         <indexMin>1</indexMin>
-        <indexMax>15</indexMax>
+        <indexMax>100</indexMax>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET">
         <!-- Modify Volume Curve: B to A -->
             <point>1,-420</point>
+            <point>2,-419</point>
+            <point>3,-419</point>
+            <point>4,-418</point>
+            <point>5,-417</point>
+            <point>6,-417</point>
+            <point>7,-416</point>
+            <point>8,-415</point>
+            <point>9,-415</point>
+            <point>10,-414</point>
+            <point>11,-413</point>
+            <point>12,-413</point>
             <point>13,-412</point>
+            <point>14,-410</point>
+            <point>15,-408</point>
+            <point>16,-406</point>
+            <point>17,-405</point>
+            <point>18,-403</point>
+            <point>19,-401</point>
             <point>20,-399</point>
+            <point>21,-397</point>
+            <point>22,-394</point>
+            <point>23,-392</point>
+            <point>24,-390</point>
+            <point>25,-388</point>
+            <point>26,-385</point>
             <point>27,-383</point>
+            <point>28,-380</point>
+            <point>29,-377</point>
+            <point>30,-374</point>
+            <point>31,-370</point>
+            <point>32,-367</point>
             <point>33,-364</point>
+            <point>34,-361</point>
+            <point>35,-358</point>
+            <point>36,-355</point>
+            <point>37,-351</point>
+            <point>38,-348</point>
+            <point>39,-345</point>
             <point>40,-342</point>
+            <point>41,-339</point>
+            <point>42,-335</point>
+            <point>43,-332</point>
+            <point>44,-328</point>
+            <point>45,-325</point>
+            <point>46,-321</point>
             <point>47,-318</point>
+            <point>48,-314</point>
+            <point>49,-310</point>
+            <point>50,-306</point>
+            <point>51,-301</point>
+            <point>52,-297</point>
             <point>53,-293</point>
+            <point>54,-289</point>
+            <point>55,-286</point>
+            <point>56,-282</point>
+            <point>57,-278</point>
+            <point>58,-274</point>
+            <point>59,-271</point>
             <point>60,-267</point>
+            <point>61,-262</point>
+            <point>62,-258</point>
+            <point>63,-254</point>
+            <point>64,-249</point>
+            <point>65,-244</point>
             <point>66,-240</point>
+            <point>67,-236</point>
+            <point>68,-232</point>
+            <point>69,-228</point>
+            <point>70,-223</point>
+            <point>71,-219</point>
+            <point>72,-215</point>
             <point>73,-211</point>
+            <point>74,-207</point>
+            <point>75,-202</point>
+            <point>76,-198</point>
+            <point>77,-194</point>
+            <point>78,-190</point>
+            <point>79,-185</point>
             <point>80,-181</point>
+            <point>81,-174</point>
+            <point>82,-168</point>
+            <point>83,-161</point>
+            <point>84,-155</point>
+            <point>85,-148</point>
+            <point>86,-142</point>
             <point>87,-135</point>
+            <point>88,-126</point>
+            <point>89,-117</point>
+            <point>90,-108</point>
+            <point>91,-100</point>
+            <point>92,-91</point>
             <point>93,-82</point>
+            <point>94,-70</point>
+            <point>95,-59</point>
+            <point>96,-47</point>
+            <point>97,-35</point>
+            <point>98,-23</point>
+            <point>99,-12</point>
             <point>100,0</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_USB">
         <!-- Modify Volume Curve: B to A -->
             <point>1,-420</point>
+            <point>2,-419</point>
+            <point>3,-419</point>
+            <point>4,-418</point>
+            <point>5,-417</point>
+            <point>6,-417</point>
+            <point>7,-416</point>
+            <point>8,-415</point>
+            <point>9,-415</point>
+            <point>10,-414</point>
+            <point>11,-413</point>
+            <point>12,-413</point>
             <point>13,-412</point>
+            <point>14,-410</point>
+            <point>15,-408</point>
+            <point>16,-406</point>
+            <point>17,-405</point>
+            <point>18,-403</point>
+            <point>19,-401</point>
             <point>20,-399</point>
+            <point>21,-397</point>
+            <point>22,-394</point>
+            <point>23,-392</point>
+            <point>24,-390</point>
+            <point>25,-388</point>
+            <point>26,-385</point>
             <point>27,-383</point>
+            <point>28,-380</point>
+            <point>29,-377</point>
+            <point>30,-374</point>
+            <point>31,-370</point>
+            <point>32,-367</point>
             <point>33,-364</point>
+            <point>34,-361</point>
+            <point>35,-358</point>
+            <point>36,-355</point>
+            <point>37,-351</point>
+            <point>38,-348</point>
+            <point>39,-345</point>
             <point>40,-342</point>
+            <point>41,-339</point>
+            <point>42,-335</point>
+            <point>43,-332</point>
+            <point>44,-328</point>
+            <point>45,-325</point>
+            <point>46,-321</point>
             <point>47,-318</point>
+            <point>48,-314</point>
+            <point>49,-310</point>
+            <point>50,-306</point>
+            <point>51,-301</point>
+            <point>52,-297</point>
             <point>53,-293</point>
+            <point>54,-289</point>
+            <point>55,-286</point>
+            <point>56,-282</point>
+            <point>57,-278</point>
+            <point>58,-274</point>
+            <point>59,-271</point>
             <point>60,-267</point>
+            <point>61,-262</point>
+            <point>62,-258</point>
+            <point>63,-254</point>
+            <point>64,-249</point>
+            <point>65,-244</point>
             <point>66,-240</point>
+            <point>67,-236</point>
+            <point>68,-232</point>
+            <point>69,-228</point>
+            <point>70,-223</point>
+            <point>71,-219</point>
+            <point>72,-215</point>
             <point>73,-211</point>
+            <point>74,-207</point>
+            <point>75,-202</point>
+            <point>76,-198</point>
+            <point>77,-194</point>
+            <point>78,-190</point>
+            <point>79,-185</point>
             <point>80,-181</point>
+            <point>81,-174</point>
+            <point>82,-168</point>
+            <point>83,-161</point>
+            <point>84,-155</point>
+            <point>85,-148</point>
+            <point>86,-142</point>
             <point>87,-135</point>
+            <point>88,-126</point>
+            <point>89,-117</point>
+            <point>90,-108</point>
+            <point>91,-100</point>
+            <point>92,-91</point>
             <point>93,-82</point>
+            <point>94,-70</point>
+            <point>95,-59</point>
+            <point>96,-47</point>
+            <point>97,-35</point>
+            <point>98,-23</point>
+            <point>99,-12</point>
             <point>100,0</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_A2DP">
         <!-- Modify Volume Curve: B to A -->
             <point>1,-420</point>
+            <point>2,-419</point>
+            <point>3,-419</point>
+            <point>4,-418</point>
+            <point>5,-417</point>
+            <point>6,-417</point>
+            <point>7,-416</point>
+            <point>8,-415</point>
+            <point>9,-415</point>
+            <point>10,-414</point>
+            <point>11,-413</point>
+            <point>12,-413</point>
             <point>13,-412</point>
+            <point>14,-410</point>
+            <point>15,-408</point>
+            <point>16,-406</point>
+            <point>17,-405</point>
+            <point>18,-403</point>
+            <point>19,-401</point>
             <point>20,-399</point>
+            <point>21,-397</point>
+            <point>22,-394</point>
+            <point>23,-392</point>
+            <point>24,-390</point>
+            <point>25,-388</point>
+            <point>26,-385</point>
             <point>27,-383</point>
+            <point>28,-380</point>
+            <point>29,-377</point>
+            <point>30,-374</point>
+            <point>31,-370</point>
+            <point>32,-367</point>
             <point>33,-364</point>
+            <point>34,-361</point>
+            <point>35,-358</point>
+            <point>36,-355</point>
+            <point>37,-351</point>
+            <point>38,-348</point>
+            <point>39,-345</point>
             <point>40,-342</point>
+            <point>41,-339</point>
+            <point>42,-335</point>
+            <point>43,-332</point>
+            <point>44,-328</point>
+            <point>45,-325</point>
+            <point>46,-321</point>
             <point>47,-318</point>
+            <point>48,-314</point>
+            <point>49,-310</point>
+            <point>50,-306</point>
+            <point>51,-301</point>
+            <point>52,-297</point>
             <point>53,-293</point>
+            <point>54,-289</point>
+            <point>55,-286</point>
+            <point>56,-282</point>
+            <point>57,-278</point>
+            <point>58,-274</point>
+            <point>59,-271</point>
             <point>60,-267</point>
+            <point>61,-262</point>
+            <point>62,-258</point>
+            <point>63,-254</point>
+            <point>64,-249</point>
+            <point>65,-244</point>
             <point>66,-240</point>
+            <point>67,-236</point>
+            <point>68,-232</point>
+            <point>69,-228</point>
+            <point>70,-223</point>
+            <point>71,-219</point>
+            <point>72,-215</point>
             <point>73,-211</point>
+            <point>74,-207</point>
+            <point>75,-202</point>
+            <point>76,-198</point>
+            <point>77,-194</point>
+            <point>78,-190</point>
+            <point>79,-185</point>
             <point>80,-181</point>
+            <point>81,-174</point>
+            <point>82,-168</point>
+            <point>83,-161</point>
+            <point>84,-155</point>
+            <point>85,-148</point>
+            <point>86,-142</point>
             <point>87,-135</point>
+            <point>88,-126</point>
+            <point>89,-117</point>
+            <point>90,-108</point>
+            <point>91,-100</point>
+            <point>92,-91</point>
             <point>93,-82</point>
+            <point>94,-70</point>
+            <point>95,-59</point>
+            <point>96,-47</point>
+            <point>97,-35</point>
+            <point>98,-23</point>
+            <point>99,-12</point>
             <point>100,0</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_SPEAKER">
         <!-- Modify Volume Curve: B to A -->
             <point>1,-2400</point>
+            <point>2,-2372</point>
+            <point>3,-2343</point>
+            <point>4,-2315</point>
+            <point>5,-2287</point>
+            <point>6,-2258</point>
+            <point>7,-2230</point>
+            <point>8,-2202</point>
+            <point>9,-2173</point>
+            <point>10,-2145</point>
+            <point>11,-2117</point>
+            <point>12,-2088</point>
             <point>13,-2060</point>
+            <point>14,-2051</point>
+            <point>15,-2041</point>
+            <point>16,-2032</point>
+            <point>17,-2023</point>
+            <point>18,-2014</point>
+            <point>19,-2004</point>
             <point>20,-1995</point>
+            <point>21,-1984</point>
+            <point>22,-1972</point>
+            <point>23,-1961</point>
+            <point>24,-1949</point>
+            <point>25,-1938</point>
+            <point>26,-1926</point>
             <point>27,-1915</point>
+            <point>28,-1899</point>
+            <point>29,-1883</point>
+            <point>30,-1868</point>
+            <point>31,-1852</point>
+            <point>32,-1836</point>
             <point>33,-1820</point>
+            <point>34,-1804</point>
+            <point>35,-1789</point>
+            <point>36,-1773</point>
+            <point>37,-1757</point>
+            <point>38,-1741</point>
+            <point>39,-1726</point>
             <point>40,-1710</point>
+            <point>41,-1693</point>
+            <point>42,-1676</point>
+            <point>43,-1659</point>
+            <point>44,-1641</point>
+            <point>45,-1624</point>
+            <point>46,-1607</point>
             <point>47,-1590</point>
+            <point>48,-1569</point>
+            <point>49,-1548</point>
+            <point>50,-1528</point>
+            <point>51,-1507</point>
+            <point>52,-1486</point>
             <point>53,-1465</point>
+            <point>54,-1446</point>
+            <point>55,-1428</point>
+            <point>56,-1409</point>
+            <point>57,-1391</point>
+            <point>58,-1372</point>
+            <point>59,-1354</point>
             <point>60,-1335</point>
+            <point>61,-1312</point>
+            <point>62,-1290</point>
+            <point>63,-1268</point>
+            <point>64,-1245</point>
+            <point>65,-1222</point>
             <point>66,-1200</point>
+            <point>67,-1179</point>
+            <point>68,-1159</point>
+            <point>69,-1138</point>
+            <point>70,-1117</point>
+            <point>71,-1096</point>
+            <point>72,-1076</point>
             <point>73,-1055</point>
+            <point>74,-1034</point>
+            <point>75,-1012</point>
+            <point>76,-991</point>
+            <point>77,-969</point>
+            <point>78,-948</point>
+            <point>79,-926</point>
             <point>80,-905</point>
+            <point>81,-872</point>
+            <point>82,-839</point>
+            <point>83,-806</point>
+            <point>84,-774</point>
+            <point>85,-741</point>
+            <point>86,-708</point>
             <point>87,-675</point>
+            <point>88,-631</point>
+            <point>89,-587</point>
+            <point>90,-542</point>
+            <point>91,-498</point>
+            <point>92,-454</point>
             <point>93,-410</point>
+            <point>94,-351</point>
+            <point>95,-293</point>
+            <point>96,-234</point>
+            <point>97,-176</point>
+            <point>98,-117</point>
+            <point>99,-59</point>
             <point>100,0</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_EARPIECE">
         <!-- Modify Volume Curve: B to A -->
             <point>1,-4200</point>
+            <point>2,-4193</point>
+            <point>3,-4187</point>
+            <point>4,-4180</point>
+            <point>5,-4173</point>
+            <point>6,-4167</point>
+            <point>7,-4160</point>
+            <point>8,-4153</point>
+            <point>9,-4147</point>
+            <point>10,-4140</point>
+            <point>11,-4133</point>
+            <point>12,-4127</point>
             <point>13,-4120</point>
+            <point>14,-4101</point>
+            <point>15,-4083</point>
+            <point>16,-4064</point>
+            <point>17,-4046</point>
+            <point>18,-4027</point>
+            <point>19,-4009</point>
             <point>20,-3990</point>
+            <point>21,-3967</point>
+            <point>22,-3944</point>
+            <point>23,-3921</point>
+            <point>24,-3899</point>
+            <point>25,-3876</point>
+            <point>26,-3853</point>
             <point>27,-3830</point>
+            <point>28,-3798</point>
+            <point>29,-3767</point>
+            <point>30,-3735</point>
+            <point>31,-3703</point>
+            <point>32,-3672</point>
             <point>33,-3640</point>
+            <point>34,-3609</point>
+            <point>35,-3577</point>
+            <point>36,-3546</point>
+            <point>37,-3514</point>
+            <point>38,-3483</point>
+            <point>39,-3451</point>
             <point>40,-3420</point>
+            <point>41,-3386</point>
+            <point>42,-3351</point>
+            <point>43,-3317</point>
+            <point>44,-3283</point>
+            <point>45,-3249</point>
+            <point>46,-3214</point>
             <point>47,-3180</point>
+            <point>48,-3138</point>
+            <point>49,-3097</point>
+            <point>50,-3055</point>
+            <point>51,-3013</point>
+            <point>52,-2972</point>
             <point>53,-2930</point>
+            <point>54,-2893</point>
+            <point>55,-2856</point>
+            <point>56,-2819</point>
+            <point>57,-2781</point>
+            <point>58,-2744</point>
+            <point>59,-2707</point>
             <point>60,-2670</point>
+            <point>61,-2625</point>
+            <point>62,-2580</point>
+            <point>63,-2535</point>
+            <point>64,-2490</point>
+            <point>65,-2445</point>
             <point>66,-2400</point>
+            <point>67,-2359</point>
+            <point>68,-2317</point>
+            <point>69,-2276</point>
+            <point>70,-2234</point>
+            <point>71,-2193</point>
+            <point>72,-2151</point>
             <point>73,-2110</point>
+            <point>74,-2067</point>
+            <point>75,-2024</point>
+            <point>76,-1981</point>
+            <point>77,-1939</point>
+            <point>78,-1896</point>
+            <point>79,-1853</point>
             <point>80,-1810</point>
+            <point>81,-1744</point>
+            <point>82,-1679</point>
+            <point>83,-1613</point>
+            <point>84,-1547</point>
+            <point>85,-1481</point>
+            <point>86,-1416</point>
             <point>87,-1350</point>
+            <point>88,-1262</point>
+            <point>89,-1173</point>
+            <point>90,-1085</point>
+            <point>91,-997</point>
+            <point>92,-908</point>
             <point>93,-820</point>
+            <point>94,-703</point>
+            <point>95,-586</point>
+            <point>96,-469</point>
+            <point>97,-351</point>
+            <point>98,-234</point>
+            <point>99,-117</point>
             <point>100,0</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_HEARING_AID">
         <!-- Modify Volume Curve: B to A -->
             <point>1,-420</point>
+            <point>2,-419</point>
+            <point>3,-419</point>
+            <point>4,-418</point>
+            <point>5,-417</point>
+            <point>6,-417</point>
+            <point>7,-416</point>
+            <point>8,-415</point>
+            <point>9,-415</point>
+            <point>10,-414</point>
+            <point>11,-413</point>
+            <point>12,-413</point>
             <point>13,-412</point>
+            <point>14,-410</point>
+            <point>15,-408</point>
+            <point>16,-406</point>
+            <point>17,-405</point>
+            <point>18,-403</point>
+            <point>19,-401</point>
             <point>20,-399</point>
+            <point>21,-397</point>
+            <point>22,-394</point>
+            <point>23,-392</point>
+            <point>24,-390</point>
+            <point>25,-388</point>
+            <point>26,-385</point>
             <point>27,-383</point>
+            <point>28,-380</point>
+            <point>29,-377</point>
+            <point>30,-374</point>
+            <point>31,-370</point>
+            <point>32,-367</point>
             <point>33,-364</point>
+            <point>34,-361</point>
+            <point>35,-358</point>
+            <point>36,-355</point>
+            <point>37,-351</point>
+            <point>38,-348</point>
+            <point>39,-345</point>
             <point>40,-342</point>
+            <point>41,-339</point>
+            <point>42,-335</point>
+            <point>43,-332</point>
+            <point>44,-328</point>
+            <point>45,-325</point>
+            <point>46,-321</point>
             <point>47,-318</point>
+            <point>48,-314</point>
+            <point>49,-310</point>
+            <point>50,-306</point>
+            <point>51,-301</point>
+            <point>52,-297</point>
             <point>53,-293</point>
+            <point>54,-289</point>
+            <point>55,-286</point>
+            <point>56,-282</point>
+            <point>57,-278</point>
+            <point>58,-274</point>
+            <point>59,-271</point>
             <point>60,-267</point>
+            <point>61,-262</point>
+            <point>62,-258</point>
+            <point>63,-254</point>
+            <point>64,-249</point>
+            <point>65,-244</point>
             <point>66,-240</point>
+            <point>67,-236</point>
+            <point>68,-232</point>
+            <point>69,-228</point>
+            <point>70,-223</point>
+            <point>71,-219</point>
+            <point>72,-215</point>
             <point>73,-211</point>
+            <point>74,-207</point>
+            <point>75,-202</point>
+            <point>76,-198</point>
+            <point>77,-194</point>
+            <point>78,-190</point>
+            <point>79,-185</point>
             <point>80,-181</point>
+            <point>81,-174</point>
+            <point>82,-168</point>
+            <point>83,-161</point>
+            <point>84,-155</point>
+            <point>85,-148</point>
+            <point>86,-142</point>
             <point>87,-135</point>
+            <point>88,-126</point>
+            <point>89,-117</point>
+            <point>90,-108</point>
+            <point>91,-100</point>
+            <point>92,-91</point>
             <point>93,-82</point>
+            <point>94,-70</point>
+            <point>95,-59</point>
+            <point>96,-47</point>
+            <point>97,-35</point>
+            <point>98,-23</point>
+            <point>99,-12</point>
             <point>100,0</point>
         </volume>
         <volume deviceCategory="DEVICE_CATEGORY_EXT_MEDIA" ref="USER_MEDIA_VOLUME_CURVE"/>

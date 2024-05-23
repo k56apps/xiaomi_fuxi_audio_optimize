@@ -1,3 +1,7 @@
+# v1.1.4
+
+- Fixed a case where the volume step jumped in some earbuds.
+
 # v1.1.3
 
 - Added a category to change the volume curve to an A-like curve.
