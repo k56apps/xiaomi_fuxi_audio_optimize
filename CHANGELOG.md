@@ -1,3 +1,7 @@
+# v1.1.5
+
+- Fixed a case of sound cracking in some songs..
+
 # v1.1.4
 
 - Fixed a case where the volume step jumped in some earbuds.
