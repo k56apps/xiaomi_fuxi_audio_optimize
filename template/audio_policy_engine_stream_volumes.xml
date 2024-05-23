@@ -147,7 +147,7 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>music</name>
         <indexMin>0</indexMin>
-        <indexMax>150</indexMax>
+        <indexMax>100</indexMax>
         <volume deiceCategory="DEVICE_CATEGORY_HEADSET">
         <!-- Modify Volume Curve: C to A -->
             <point>1,-6200</point>
