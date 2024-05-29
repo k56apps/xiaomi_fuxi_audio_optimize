@@ -23,12 +23,14 @@ AUDIO_POLICY_ENGINE_VENDOR=$ODM_DIR/audio_policy_engine_stream_volumes.xml
 
 # audio quality settings
 DRC_enabled=false
+sRateUsb="44100 48000 64000 88200 96000 128000 176400 192000 352800 384000"
 sRate="44100 48000 88200 96000 192000"
 aFormat=AUDIO_FORMAT_PCM_32_BIT
 aWidth=32
 
 # apply audio policy configuration
 sed -e "s/%DRC_ENABLED%/$DRC_enabled/" \
+    -e "s/%SAMPLING_RATE_USB%/$sRateUsb/g" \
     -e "s/%SAMPLING_RATE%/$sRate/g" \
     -e "s/%AUDIO_FORMAT%/$aFormat/g" \
     $MODDIR/template/audio_policy_configuration.xml > \
@@ -36,6 +38,7 @@ sed -e "s/%DRC_ENABLED%/$DRC_enabled/" \
 
 # apply audio policy configuration
 sed -e "s/%DRC_ENABLED%/$DRC_enabled/" \
+    -e "s/%SAMPLING_RATE_USB%/$sRateUsb/g" \
     -e "s/%SAMPLING_RATE%/$sRate/g" \
     -e "s/%AUDIO_FORMAT%/$aFormat/g" \
     $MODDIR/template/audio_policy_configuration.xml > \

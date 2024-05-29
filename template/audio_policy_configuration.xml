@@ -338,7 +338,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 </devicePort>
                 <devicePort tagName="Multiroute" type="AUDIO_DEVICE_OUT_MULTIROUTE" role="sink">
                     <profile name="" format="%AUDIO_FORMAT%"
-                             samplingRates="8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,128000,176400,192000" channelMasks="AUDIO_CHANNEL_IN_STEREO"/>
+                             samplingRates="8000 11025 16000 22050 32000 44100 48000 64000 88200 96000 128000 176400 192000" channelMasks="AUDIO_CHANNEL_IN_STEREO"/>
                 </devicePort>
                 <devicePort tagName="FM" type="AUDIO_DEVICE_OUT_FM" role="sink">
                     <profile name="" format="%AUDIO_FORMAT%"
@@ -552,15 +552,15 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <module name="usb" halVersion="2.0">
             <mixPorts>
                 <mixPort name="usb_accessory output" role="source">
-                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                             samplingRates="44100" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                    <profile name="" format="%AUDIO_FORMAT%"
+                             samplingRates="%SAMPLING_RATE_USB%" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                 </mixPort>
                 <mixPort name="usb_device output" role="source" flags="AUDIO_OUTPUT_FLAG_BIT_PERFECT"/>
             </mixPorts>
             <devicePorts>
                 <devicePort tagName="USB Host Out" type="AUDIO_DEVICE_OUT_USB_ACCESSORY" role="sink">
-                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                             samplingRates="44100" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                    <profile name="" format="%AUDIO_FORMAT%"
+                             samplingRates="%SAMPLING_RATE_USB%" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
                 </devicePort>
                 <devicePort tagName="USB Device Out" type="AUDIO_DEVICE_OUT_USB_DEVICE" role="sink"/>
             </devicePorts>
