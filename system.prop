@@ -1,6 +1,16 @@
 # volume steps
 ro.config.media_vol_steps=100
 ro.config.media_vol_default=30
+ro.config.system_vol_steps=100
+ro.config.system_vol_default=30
+volume_bluetooth_sco=100
+volume_bluetooth_sco_bt_a2dp=100
+volume_bluetooth_sco_bt_sco=100
+volume_music_ble_headset=100
+volume_music_bt_a2dp=100
+volume_music_bt_sco=100
+volume_music_usb_headset=100
+volume_steps_music=100
 
 #
 # Support hi-res audio

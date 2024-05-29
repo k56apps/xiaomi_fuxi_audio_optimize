@@ -1,3 +1,12 @@
+# v1.1.7
+
+- Added missing volume steps properties.
+
+# v1.1.6
+
+- USB Device setting changed.
+- Fix audio policy manager multiroute typo.
+
 # v1.1.5
 
 - Fixed a case of sound cracking in some songs..

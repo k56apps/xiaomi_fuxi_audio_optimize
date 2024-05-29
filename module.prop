@@ -1,12 +1,7 @@
 id=XiaomiFuxiAudioOptimization
 name=Xiaomi Fuxi Audio Optimization
-<<<<<<< HEAD
-version=v1.1.5
-versionCode=115
-=======
-version=v1.1.6
-versionCode=116
->>>>>>> 1d32d66 (- USB Device setting changed.)
+version=v1.1.7
+versionCode=117
 author=k56apps
 description=A magisk module to XIAOMI FUXI audio optimize.
 updateJson=https://raw.githubusercontent.com/k56apps/xiaomi_fuxi_audio_optimize/main/update.json
