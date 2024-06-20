@@ -1,10 +1,7 @@
 # v1.1.7
 
-<<<<<<< HEAD
 - Added missing volume steps properties.
-=======
-- Added missing volume steps properties
->>>>>>> 530c5fc (- Added missing volume steps properties.)
+
 
 # v1.1.6
 
